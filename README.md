@@ -1,4 +1,4 @@
-# ["Путешествия по России"](https://iamfreezee.github.io/russian-travel/)
+# [Путешествия по России](https://iamfreezee.github.io/russian-travel/)
 
 Адаптивная верстка одностраничного сайта
 
