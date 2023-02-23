@@ -1,0 +1,21 @@
+.photo-grid {
+  /*outline: 1px solid red;*/
+  width: calc(100% - 48px*2);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(261px, 1fr));
+  gap: 15px;
+}
+
+@media screen and (max-width: 960px) {
+  .photo-grid {
+    width: calc(100% - 24px*2);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .photo-grid {
+    width: calc(100% - 16px*2);
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

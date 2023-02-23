@@ -1,0 +1,11 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 1201px) {
+  .content {
+    padding-top: 48px;
+  }
+}
