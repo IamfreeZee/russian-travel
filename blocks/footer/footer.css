@@ -1,7 +1,6 @@
 .footer {
   /*outline: 1px solid red;*/
   width: calc(100% - 48px*2);
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +14,7 @@
 
 @media screen and (max-width: 760px) {
   .footer {
-    width: 225px;
+    max-width: 225px;
     flex-direction: column;
     align-items: flex-start;
     gap: 48px;

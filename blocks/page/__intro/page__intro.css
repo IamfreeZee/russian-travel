@@ -18,8 +18,6 @@
 
 @media screen and (max-width: 760px) {
   .page__intro {
-    margin-left: 16px;
-    margin-top: 64px;
     margin: 64px auto 0;
   }
 }
